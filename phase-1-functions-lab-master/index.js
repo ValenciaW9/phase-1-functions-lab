@@ -1,9 +1,22 @@
-const { distanceFromHqInBlocks } = require('./index'); 
-
-describe('index.js', function() {
-  describe('distanceFromHqInBlocks()', function() {
-    it('returns a distance in blocks', function() {
-      expect(distanceFromHqInBlocks(43)).to.equal(1);
-    });
-  });
-});
+function distanceFromHqInBlocks(blocks) {
+    // Implementation here
+  }
+  
+  function distanceFromHqInFeet(feet) {
+    // Implementation here
+  }
+  
+  function distanceTravelledInFeet(start, destination) {
+    // Implementation here
+  }
+  
+  function calculatesFarePrice(start, destination) {
+    // Implementation here
+  }
+  
+  module.exports = {
+    distanceFromHqInBlocks,
+    distanceFromHqInFeet,
+    distanceTravelledInFeet,
+    calculatesFarePrice
+  };
