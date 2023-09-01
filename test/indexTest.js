@@ -1,4 +1,4 @@
-const { distanceFromHqInBlocks, distanceFromHqInFeet, distanceTravelledInFeet, calculatesFarePrice } = require('./index');
+const { distanceFromHqInBlocks, distancequire ( './helpers.js' );
 
 describe('index.js', function() {
   describe('distanceFromHqInBlocks()', function() {
@@ -62,4 +62,3 @@ describe('index.js', function() {
     });
   });
 });
- 

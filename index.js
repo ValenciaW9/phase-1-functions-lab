@@ -1,7 +1,9 @@
+require('./index')
 function distanceFromHqInBlocks(blocks) {
     // Implementation here
   }
   
+
   function distanceFromHqInFeet(feet) {
     // Implementation here
   }
