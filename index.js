@@ -1,4 +1,4 @@
-require('./index')
+const { distanceFromHqInBlocks, distanceFromHqInFeet, distanceTravelledInFeet, calculatesFarePrice } = require('./helpers.js');
 function distanceFromHqInBlocks(blocks) {
     // Implementation here
   }
